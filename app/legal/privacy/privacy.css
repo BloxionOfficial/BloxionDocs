@@ -1,53 +1,58 @@
-.privacy-wrapper {
+.legal-container {
   width: 100%;
   min-height: 100vh;
-  background: #000;
-  color: #fff;
+  background: #0b0b0b;
+  padding: 40px 20px;
   display: flex;
   justify-content: center;
-  padding: 40px 20px;
-  font-family: "Inter", sans-serif;
 }
 
-.privacy-card {
+.legal-card {
   background: #111;
-  max-width: 780px;
+  max-width: 850px;
   width: 100%;
   padding: 40px;
-  border-radius: 22px;
-  box-shadow: 0 0 40px rgba(0, 255, 200, 0.08);
+  border-radius: 14px;
+  color: #e5e5e5;
+  font-family: system-ui, sans-serif;
+  line-height: 1.55;
+  box-shadow: 0 0 30px rgba(0, 255, 180, 0.06);
+}
+
+h1, h2 {
+  font-weight: 700;
+  color: white;
 }
 
 h1 {
-  font-size: 36px;
-  font-weight: 700;
   text-align: center;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
+  font-size: 2.2rem;
 }
 
-.last-updated {
+.updated {
   text-align: center;
-  opacity: 0.6;
-  margin-bottom: 24px;
+  color: #aaa;
+  margin-bottom: 25px;
 }
 
 h2 {
-  margin-top: 32px;
-  font-size: 22px;
+  margin-top: 28px;
+  font-size: 1.35rem;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 1.1rem;
   font-weight: 600;
 }
 
-p,
 ul {
-  font-size: 16px;
-  line-height: 1.65;
-  margin-top: 16px;
+  margin: 10px 0 10px 22px;
 }
 
-ul {
-  padding-left: 22px;
-}
-
-ul li {
-  margin-bottom: 10px;
+hr {
+  border: none;
+  border-top: 1px solid #222;
+  margin: 30px 0;
 }
