@@ -9,7 +9,7 @@ export default function PrivacyPolicyPage() {
     <div className="legal-container">
       <div className="legal-card">
         <h1>Bloxion Privacy Policy</h1>
-        <p className="updated">Effective Date: [Insert Date]</p>
+        <p className="updated">Effective Date: 17.11.2025</p>
 
         <p>
           Bloxion (“we,” “our,” or “us”) values your privacy and is committed to
