@@ -39,7 +39,7 @@ export default function PrivacyPolicyPage() {
         <ul>
           <li>IP addresses (via Cloudflare, for support ticket matching and service security)</li>
           <li>Payment information (billing address, card details) via Stripe</li>
-          <li>Facial scans (via Persona) for rare verification purposes, such as age verification and protecting children</li>
+         
         </ul>
 
         <h3>Anonymous Data:</h3>
@@ -59,12 +59,7 @@ export default function PrivacyPolicyPage() {
           <li>Improve service reliability and performance</li>
         </ul>
 
-        <p><strong>Special Note on Facial Scans:</strong></p>
-        <ul>
-          <li>Facial scans are used only for rare verification purposes</li>
-          <li>Data is strictly handled and deleted within 30 days</li>
-        </ul>
-
+      
      
 
         <h2>3. Third-Party Services</h2>
@@ -72,7 +67,6 @@ export default function PrivacyPolicyPage() {
         <ul>
           <li>Cloudflare: anonymous visit logging and monitoring</li>
           <li>Stripe: payment processing</li>
-          <li>Persona: age and identity verification</li>
         </ul>
         <p>
           Third parties may have their own privacy practices. For inquiries about
@@ -96,7 +90,6 @@ export default function PrivacyPolicyPage() {
         <h2>5. Data Retention</h2>
         <ul>
           <li>Personal data retained only as long as needed to provide the service and comply with legal obligations</li>
-          <li>Facial scan data deleted within 30 days of collection</li>
           <li>Audit logs and transactional data may be retained for compliance</li>
         </ul>
 
@@ -113,8 +106,7 @@ export default function PrivacyPolicyPage() {
 
         <h2>7. Children’s Privacy</h2>
         <p>
-          Bloxion is intended for users aged 13 and above. Users under 13 will
-          undergo an age verification process via Persona before using the service.
+          Bloxion is intended for users aged 13 and above. Users under 13 will be restricted from utilizing Bloxion.
         </p>
 
         
