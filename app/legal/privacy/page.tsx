@@ -18,7 +18,7 @@ export default function PrivacyPolicyPage() {
           protection laws, including the GDPR.
         </p>
 
-        <hr />
+       
 
         <h2>1. Information We Collect</h2>
 
@@ -47,7 +47,7 @@ export default function PrivacyPolicyPage() {
           <li>Anonymous visit logging and monitoring for analytics and service improvement</li>
         </ul>
 
-        <hr />
+      
 
         <h2>2. How We Use Your Data</h2>
         <ul>
@@ -65,7 +65,7 @@ export default function PrivacyPolicyPage() {
           <li>Data is strictly handled and deleted within 30 days</li>
         </ul>
 
-        <hr />
+     
 
         <h2>3. Third-Party Services</h2>
         <p>We use third-party services to deliver and secure Bloxion:</p>
@@ -79,7 +79,7 @@ export default function PrivacyPolicyPage() {
           your data with these providers, please contact them directly.
         </p>
 
-        <hr />
+        
 
         <h2>4. Your Rights</h2>
         <p>You have the following rights under GDPR:</p>
@@ -91,7 +91,7 @@ export default function PrivacyPolicyPage() {
         </ul>
         <p>Note: Anonymous data collected for analytics cannot be exported or deleted.</p>
 
-        <hr />
+       
 
         <h2>5. Data Retention</h2>
         <ul>
@@ -100,7 +100,7 @@ export default function PrivacyPolicyPage() {
           <li>Audit logs and transactional data may be retained for compliance</li>
         </ul>
 
-        <hr />
+        
 
         <h2>6. Security</h2>
         <p>
@@ -109,7 +109,7 @@ export default function PrivacyPolicyPage() {
           disclosure, alteration, and destruction.
         </p>
 
-        <hr />
+        
 
         <h2>7. Children’s Privacy</h2>
         <p>
@@ -117,7 +117,7 @@ export default function PrivacyPolicyPage() {
           undergo an age verification process via Persona before using the service.
         </p>
 
-        <hr />
+        
 
         <h2>8. Updates to This Privacy Policy</h2>
         <p>
@@ -125,15 +125,7 @@ export default function PrivacyPolicyPage() {
           this page with the effective date.
         </p>
 
-        <hr />
-
-        <h2>9. Contact Us</h2>
-        <p>If you have any questions, please contact us:</p>
-        <p>
-          Email: <strong>[Insert Contact Email]</strong><br />
-          Address: <strong>[Insert Address, if applicable]</strong>
-        </p>
-
+  
       </div>
     </div>
   );
