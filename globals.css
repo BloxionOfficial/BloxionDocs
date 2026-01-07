@@ -5,7 +5,10 @@ body {
     env(safe-area-inset-bottom)
     env(safe-area-inset-left);
 }
-
+body {
+  min-height: 100vh;
+  min-height: 100svh;
+}
 html,
 body {
   margin: 0;
