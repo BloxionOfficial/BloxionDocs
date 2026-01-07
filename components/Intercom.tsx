@@ -4,5 +4,5 @@ import Intercom from "@intercom/messenger-js-sdk";
 
 export default function component() {
     Intercom({app_id: "u6ewkgos",});
-    return <div>Example App</div>;
+    return nil;
 }
