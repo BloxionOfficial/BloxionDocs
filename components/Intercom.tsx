@@ -1,8 +1,14 @@
 "use client";
-import React from "react";
+
+import { useEffect } from "react";
 import Intercom from "@intercom/messenger-js-sdk";
 
-export default function Component() {
-    Intercom({app_id: "u6ewkgos",});
-    return null;
+export default function IntercomProvider() {
+  useEffect(() => {
+    Intercom({
+      app_id: "u6ewkgos",
+    });
+  }, []);
+
+  return null;
 }
