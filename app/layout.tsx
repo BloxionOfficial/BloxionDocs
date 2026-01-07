@@ -3,6 +3,8 @@ export const metadata = {
   description: "Documentation and legal pages for Bloxion",
 };
 
+import Component from "../components/Intercom";
+
 export default function RootLayout({
   children,
 }: {
@@ -10,7 +12,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body style={{ background: "#000", color: "#fff", margin: 0 }}>
+      <body>
+        <Component />
         {children}
       </body>
     </html>
