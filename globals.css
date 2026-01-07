@@ -17,3 +17,9 @@ body > div {
   min-height: 100vh;
   background: #000;
 }
+
+<style>{`
+  html, body, #__next, body > div {
+    background: red !important;
+  }
+`}</style>
