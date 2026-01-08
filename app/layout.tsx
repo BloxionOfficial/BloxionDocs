@@ -13,7 +13,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Component />
+        
         {children}
       </body>
     </html>
